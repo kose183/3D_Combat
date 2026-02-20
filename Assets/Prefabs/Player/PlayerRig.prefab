@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1938517798470146064}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.07877597, y: 0, z: 0, w: 0.99689233}
+  m_LocalRotation: {x: 0.07877597, y: 2.4386303e-22, z: 1.2756857e-23, w: 0.99689233}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -234,7 +234,7 @@ Transform:
   m_GameObject: {fileID: 3901278423651143508}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.0715187, y: -2.1843166, z: 2.629257}
+  m_LocalPosition: {x: 1.0715187, y: -2.1843166, z: 2.6292567}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -546,7 +546,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4853091128926735064}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.06070728, y: 0, z: 0, w: 0.99815565}
+  m_LocalRotation: {x: -0.0607073, y: 0.0000000020800845, z: 1.2650957e-10, w: 0.99815565}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -785,7 +785,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8297102065796902494}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0076692384, y: 0, z: 0, w: 0.9999706}
+  m_LocalRotation: {x: 0.0076692444, y: 4.021168e-17, z: -1.1355893e-18, w: 0.9999706}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -901,11 +901,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player_Girl
-      objectReference: {fileID: 0}
-    - target: {fileID: 8805975832243426152, guid: dbedc7671c483404e9b921a1b009062d,
-        type: 3}
-      propertyPath: <RotationDamping>k__BackingField
-      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
