@@ -13,26 +13,22 @@ public class Targeter : MonoBehaviour
         if (target == null) return;
 
         targets.Add(target);
-
-
-        //targets.Add(other.GetComponent<Target>());
-        //Debug.Log(other.name);
     }
 
     private void OnTriggerExit(Collider other)
     {
+        Target target = other.GetComponent<Target>();
 
-        targets.Remove(other.GetComponent<Target>());
-        Debug.Log(other.name);
+        if (target == null) return;
+
+        targets.Remove(target);
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
